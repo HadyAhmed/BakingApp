@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="select_recipe_string">Select Recipe</string>
+    <string name="nutella_pie_string">Nutella Pie</string>
+    <string name="brownies_string">Brownies</string>
+    <string name="yellow_cake_string">Yellow Cake</string>
+    <string name="cheesecake_string">Cheesecake</string>
+    <string name="measure_string">Measure:</string>
+    <string name="quantity_string">Quantity:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

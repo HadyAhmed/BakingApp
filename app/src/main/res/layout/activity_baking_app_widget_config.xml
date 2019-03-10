@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/select_recipe_string"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/recipes_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/nutella_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="8dp"
+            android:text="@string/nutella_pie_string"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <RadioButton
+            android:id="@+id/brownies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="8dp"
+            android:text="@string/brownies_string"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <RadioButton
+            android:id="@+id/yellow_cake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="8dp"
+            android:text="@string/yellow_cake_string"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <RadioButton
+            android:id="@+id/cheesecake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="8dp"
+            android:text="@string/cheesecake_string"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+    </RadioGroup>
+
+</LinearLayout>
